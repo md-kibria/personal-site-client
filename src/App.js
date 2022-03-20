@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import './App.scss';
+import AboutSection from './components/AboutSection';
+import FooterSection from './components/FooterSection';
+import HeroSection from './components/HeroSection';
+import Navbar from './components/Navbar';
+import ProjectSection from './components/ProjectsSection';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [aboutTop, setAboutTop] = useState(0)
+    const [projectTop, setProjectTop] = useState(0)
+    const [chatTop, setChatTop] = useState(0)
+
+    return (
+        <div className="app">
+            <Navbar
+                aboutTop={aboutTop}
+                projectTop={projectTop}
+                chatTop={chatTop}
+            />
+            <HeroSection />
+            <AboutSection setAboutTop={setAboutTop} />
+            <ProjectSection setProjectTop={setProjectTop} />
+            <FooterSection setChatTop={setChatTop} />
+        </div>
+    );
 }
 
 export default App;

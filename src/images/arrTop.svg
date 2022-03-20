@@ -1,0 +1,13 @@
+<svg id="arrow_circle_chevron_up" data-name="arrow / circle_chevron_up" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="arrow_circle_chevron_up_Background_Mask_" data-name="arrow / circle_chevron_up (Background/Mask)" width="24" height="24" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="arrow_circle_chevron_up-2" data-name="arrow / circle_chevron_up">
+    <rect id="arrow_circle_chevron_up_Background_Mask_2" data-name="arrow / circle_chevron_up (Background/Mask)" width="24" height="24" fill="none"/>
+    <g id="arrow_circle_chevron_up-3" data-name="arrow / circle_chevron_up" clip-path="url(#clip-path)">
+      <path id="arrow_circle_chevron_up-4" data-name="arrow / circle_chevron_up" d="M10,20A10,10,0,1,1,20,10,10.011,10.011,0,0,1,10,20Zm-.016-2H10a8,8,0,1,0-.016,0Zm-3.47-5.136h0L5.1,11.45,10.05,6.5,15,11.45l-1.414,1.413L10.05,9.328,6.515,12.864Z" transform="translate(2 2)" fill="#2e3a59"/>
+    </g>
+  </g>
+</svg>

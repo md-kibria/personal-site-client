@@ -1,0 +1,45 @@
+@import '../../index.scss';
+
+.projects {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        @include title;
+        margin: 25px;
+    }
+
+    .project_container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+        margin: 25px;
+
+        .project {
+            @include project;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .projects .project_container {
+        width: 50%;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 700px) {
+    .projects .project_container {
+        width: 75%;
+    }
+}
+
+@media (max-width: 600px) {
+    .projects .project_container {
+        width: 85%;
+    }
+}
